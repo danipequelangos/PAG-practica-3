@@ -1,10 +1,10 @@
 //Variables de modelado
 var scene, renderer, camera, model;
-var textures = ["https://raw.githubusercontent.com/danipequelangos/PAG-practica-3/main/brushed_brown_metal.txt",
-                "https://raw.githubusercontent.com/danipequelangos/PAG-practica-3/main/very_brushed_brown_metal.txt",
-                "https://raw.githubusercontent.com/danipequelangos/PAG-practica-3/main/scratched_scraped_metal.txt",
-                "https://raw.githubusercontent.com/danipequelangos/PAG-practica-3/main/red_plastic.txt",
-                "https://raw.githubusercontent.com/danipequelangos/PAG-practica-3/main/oiled_brown_metal.txt"];
+var textures = ["https://raw.githubusercontent.com/danipequelangos/PAG-practica-3/main/textures/brushed_brown_metal.txt",
+                "https://raw.githubusercontent.com/danipequelangos/PAG-practica-3/main/textures/very_brushed_brown_metal.txt",
+                "https://raw.githubusercontent.com/danipequelangos/PAG-practica-3/main/textures/scratched_scraped_metal.txt",
+                "https://raw.githubusercontent.com/danipequelangos/PAG-practica-3/main/textures/red_plastic.txt",
+                "https://raw.githubusercontent.com/danipequelangos/PAG-practica-3/main/textures/oiled_brown_metal.txt"];
 
 //variables de controles
 var controls;

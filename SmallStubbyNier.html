@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Small Stubby Nier</title>
+    <meta charset="UTF-8" />
+    <script type="text/javascript" charset="UTF-8" src="lib/three.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="lib/three.module.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="lib/OrbitControls.js"></script>
+    <script type="text/javascript" src="./SmallStubbyNier.js"></script>
+    <link rel="stylesheet" href="css/basico.css" />
+</head>
+
+<body>
+
+    <!-- Div para meter la salida -->
+    <div id="contenedor"></div>
+    <div id="info">CONTROLES:<br>
+        -Caminar: w (adelante), s (atrás)<br>
+        -Girar: a (izq), d (der)<br>
+        -Girar cabeza: q (izq), e (der)<br>
+        -Camara: girar (mouse izq) mover (mouse der) <br>
+        -Zoom: mouse centro <br>
+    </div>
+    <!-- Codigo Javascript para ejecutar la función -->
+    <script type="text/javascript">
+        (function () {
+            init();
+            animate();
+        })();
+    </script>
+</body>
+
+</html>
